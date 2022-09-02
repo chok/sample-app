@@ -9,7 +9,8 @@
   "scripts": {
     "start": "yarn build && node dist/index.js",
     "cli": "yarn build && chmod a+x ./dist/cli.js && ./dist/cli.js",
-    "build": "rm -rf ./dist && tsc"
+    "build": "rm -rf ./dist && tsc",
+    "test": "npx jest"
   },
   "author": "",
   "license": "ISC",
